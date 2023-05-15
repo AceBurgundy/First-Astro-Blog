@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/wrapper.astro'
+// import Showcase from '../components/react-components/Showcase'
+import Showcase from '../components/showcase.astro'
+import Features from '../components/features.astro'
+import Tabs from '../components/tabs.astro'
+
+const TabsData = [
+	{
+		heading: "NPM",
+		content: "$ npm create astro@latest"
+	},
+	{
+		heading: "PNPM",
+		content: "$ pnpm create astro@latest"
+	},
+	{
+		heading: "YARN",
+		content: "$ yarn create astro"
+	}
+]
+---
+
+<Layout title="Dashboard">
+	<Showcase heading="Welcome to the dashboard" showExtra/>
+	<Features />
+	
+    <section class="page-content">
+		<div class="container">
+		  <h2>Get Started With Astro</h2>
+		  <p>
+			Get a new Astro project up and running locally with our helpful
+			create-astro CLI wizard!
+		  </p>
+  
+		  <Tabs activeTextColor="lightgreen" tabsData={TabsData}/>
+
+		  <h3>Start Building</h3>
+		  <p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsum
+			deserunt inventore ut voluptate, officia maiores repellat tenetur
+			praesentium omnis est ex tempora a necessitatibus reiciendis at et
+			dignissimos. Ipsam eius consequuntur cupiditate aperiam porro, esse
+			laborum impedit nesciunt ut voluptatum assumenda aspernatur libero
+			iusto error molestias dolorum, necessitatibus labore?
+		  </p>
+		</div>
+	  </section>
+</Layout>
