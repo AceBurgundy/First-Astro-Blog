@@ -88,13 +88,9 @@ License
 This project is licensed under the MIT License. Feel free to use and modify the code according to your needs.
 Acknowledgements
 
-    This app was developed as a demonstration of basic data entry and manipulation using JavaScript and HTML.
-    The project structure and code were inspired by Excel-like interfaces.
-    The CSV generation code was adapted from Stack Overflow.
-
 ## Contact
 
-For any questions or inquiries, please contact Samadriansabalo@gmail.com.
+For any questions or inquiries, please contact Samadriansabalo99@gmail.com.
 
 ## Portfolio
 https://aceburgundy.github.io
